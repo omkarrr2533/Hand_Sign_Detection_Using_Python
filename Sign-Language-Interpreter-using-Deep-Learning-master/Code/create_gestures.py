@@ -10,7 +10,7 @@ def get_hand_hist():
 	return hist
 
 def init_create_folder_database():
-	# create the folder and database if not exist
+	 
 	if not os.path.exists("gestures"):
 		os.mkdir("gestures")
 	if not os.path.exists("gesture_db.db"):
