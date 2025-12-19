@@ -15,7 +15,6 @@ if len(gestures)%5 != 0:
 	rows = int(len(gestures)/5)+1
 else:
 	rows = int(len(gestures)/5)
-
 full_img = None
 for i in range(rows):
 	col_img = None
