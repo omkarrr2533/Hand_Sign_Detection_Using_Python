@@ -272,7 +272,7 @@ def text_mode(cam):
 				word = ""
 		else:
 			if word != '':
-				#print('yolo1')
+				#print('yolo1') 
 				#say_text(text)
 				Thread(target=say_text, args=(word, )).start()
 			text = ""
