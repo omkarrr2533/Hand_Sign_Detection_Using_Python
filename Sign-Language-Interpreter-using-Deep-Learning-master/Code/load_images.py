@@ -39,7 +39,7 @@ print("Length of test_images", len(test_images))
 with open("test_images", "wb") as f:
 	pickle.dump(test_images, f) 
 del test_images
-
+ 
 test_labels = labels[int(5/6*len(labels)):int(11/12*len(images))]
 print("Length of test_labels", len(test_labels))
 with open("test_labels", "wb") as f:
