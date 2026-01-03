@@ -44,7 +44,7 @@ def cnn_model():
 	checkpoint1 = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
 	callbacks_list = [checkpoint1]
 	#from keras.utils import plot_model
-	#plot_model(model, to_file='model.png', show_shapes=True)
+	#plot_model(model, to_file='model.png', show_shapes=True) 
 	return model, callbacks_list
 
 def train():
