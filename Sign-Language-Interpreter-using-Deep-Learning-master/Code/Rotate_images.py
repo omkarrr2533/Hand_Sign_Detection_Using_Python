@@ -14,5 +14,4 @@ def flip_images():
 			img = cv2.flip(img, 1)
 			cv2.imwrite(new_path, img)
 
-
 flip_images()
