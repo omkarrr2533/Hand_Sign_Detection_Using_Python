@@ -6,3 +6,4 @@ tensorflow-gpu
 keras
 opencv-python
 pyttsx3
+ 
