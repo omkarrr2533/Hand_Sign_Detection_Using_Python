@@ -19,7 +19,7 @@ def build_squares(img):
 		if np.any(crop == None):
 			crop = imgCrop
 		else:
-			crop = np.vstack((crop, imgCrop)) 
+			crop = np.vstack((crop, imgCrop))
 		imgCrop = None
 		x = 420
 		y+=h+d
